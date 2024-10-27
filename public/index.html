@@ -4,8 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-    <h1>Test</h1>
+    <div class="main">
+        <h1>Login</h1>
+        <div class="loginDiv">
+            <form id="loginForm">
+                <div class="input">
+                    <div>
+                        <label for="username">Username</label>
+                        <input type="text" id="username" name="username" required>
+                    </div>
+                    <div>
+                        <label for="username">Password</label>
+                        <input type="text" id="password" name="password" required>
+                    </div>
+                </div>
+                <div class="button">
+                    <button type="submit">Login</button>
+                </div>
+            </form>
+        </div>
+    </div>
 </body>
+<script src="/script/loginHandler.js"></script>
 </html>
